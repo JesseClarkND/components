@@ -1,0 +1,5 @@
+C:\Users\hogarth45\Documents\Programming\components\Clark.Domain.Data\bin\Debug\Clark.Domain.Data.dll
+C:\Users\hogarth45\Documents\Programming\components\Clark.Domain.Data\bin\Debug\Clark.Domain.Data.pdb
+C:\Users\hogarth45\Documents\Programming\components\Clark.Domain.Data\obj\Debug\Clark.Domain.Data.dll
+C:\Users\hogarth45\Documents\Programming\components\Clark.Domain.Data\obj\Debug\Clark.Domain.Data.pdb
+C:\Users\hogarth45\Documents\Programming\components\Clark.Domain.Data\obj\Debug\Clark.Domain.Data.csprojResolveAssemblyReference.cache

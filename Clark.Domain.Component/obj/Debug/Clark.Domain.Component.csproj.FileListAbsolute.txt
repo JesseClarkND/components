@@ -1,0 +1,10 @@
+C:\Users\hogarth45\Documents\Programming\components\Clark.Domain.Component\obj\Debug\Clark.Domain.Component.csprojResolveAssemblyReference.cache
+C:\Users\hogarth45\Documents\Programming\components\Clark.Domain.Component\bin\Debug\Clark.Domain.Component.dll
+C:\Users\hogarth45\Documents\Programming\components\Clark.Domain.Component\bin\Debug\Clark.Domain.Component.pdb
+C:\Users\hogarth45\Documents\Programming\components\Clark.Domain.Component\bin\Debug\Clark.Domain.Data.dll
+C:\Users\hogarth45\Documents\Programming\components\Clark.Domain.Component\bin\Debug\Core.MySQL.Accessor.dll
+C:\Users\hogarth45\Documents\Programming\components\Clark.Domain.Component\bin\Debug\MySql.Data.dll
+C:\Users\hogarth45\Documents\Programming\components\Clark.Domain.Component\bin\Debug\Core.MySQL.Accessor.pdb
+C:\Users\hogarth45\Documents\Programming\components\Clark.Domain.Component\bin\Debug\Clark.Domain.Data.pdb
+C:\Users\hogarth45\Documents\Programming\components\Clark.Domain.Component\obj\Debug\Clark.Domain.Component.dll
+C:\Users\hogarth45\Documents\Programming\components\Clark.Domain.Component\obj\Debug\Clark.Domain.Component.pdb
