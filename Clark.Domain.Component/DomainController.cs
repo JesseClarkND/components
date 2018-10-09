@@ -89,6 +89,14 @@ namespace Clark.Domain.Component
             return GenericFind("", null);
         }
 
+        public Clark.Domain.Data.Domain FindByDomain(string domain)
+        {
+            string criteria = "domain_name=@domain_name";
+            List<DbField> parameters = new List<DbField>();
+            parameters.Add(new DbField("@domain_name", DbType.String, domain));
+            return GenericFind(criteria, parameters).Items.FirstOrDefault();
+        }
+
         private DomainFindResult GenericFind(string whereClause, List<DbField> parameters)
         {
             DomainFindResult result = new DomainFindResult();
@@ -109,7 +117,7 @@ namespace Clark.Domain.Component
 
                 foreach (DataRowView row in dataView)
                 {
-                    Clark.Domain.Data.Domain domain = DataRowToAttackHistory(row);
+                    Clark.Domain.Data.Domain domain = DataRowToDomain(row);
                     result.Items.Add(domain);
                 }
             }
@@ -137,7 +145,7 @@ namespace Clark.Domain.Component
             updater.BindParameter("platform", System.Data.DbType.String, domain.Platform);
         }
 
-        private static Clark.Domain.Data.Domain DataRowToAttackHistory(DataRowView row)
+        private static Clark.Domain.Data.Domain DataRowToDomain(DataRowView row)
         {
             Clark.Domain.Data.Domain domain = new Clark.Domain.Data.Domain();
             domain.DomainId = DatabaseUtilities.SafeMapToInt32(row["domain_id"], "domain_id");
